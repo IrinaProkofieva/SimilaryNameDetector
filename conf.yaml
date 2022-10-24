@@ -1,0 +1,15 @@
+train:
+  epochs: 20
+  batch_size: 32
+  warmup_steps: 100
+  evaluation_steps: 146
+
+data:
+  dataset_path: '../train.csv'
+
+model:
+  name: 'sentence-transformers/msmarco-distilbert-base-tas-b'
+  path: '../text_model'
+
+pipeline:
+  name: '../text_model'
