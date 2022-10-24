@@ -61,7 +61,7 @@ ITMO_University
 `
 
 <p align="middle">
-  <img src="model/example/exaple.png" width=350 />
+  <img src="example/example.png" width=350 />
 </p>
 
 Метрики модели:
